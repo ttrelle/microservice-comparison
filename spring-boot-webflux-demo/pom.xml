@@ -13,6 +13,7 @@
 
 	<groupId>de.codecentric</groupId>
 	<artifactId>spring-boot-webflux-demo</artifactId>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	<description>Simple reactive REST service</description>
 
