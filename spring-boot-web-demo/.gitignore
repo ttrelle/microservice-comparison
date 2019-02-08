@@ -13,3 +13,4 @@ target
 
 ${log-path}
 /transaction-logs/
+/.springBeans
