@@ -4,3 +4,6 @@
 .project
 .classpath
 .settings
+spring-boot-web/target
+spring-boot-webflux/target
+dependency-reduced-pom.xml
