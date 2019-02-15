@@ -10,7 +10,7 @@
 
 	<properties>
 		<exec.mainClass>de.codecentric.micronaut.simple.SimpleMicroApp</exec.mainClass>
-		<micronaut.version>1.0.1</micronaut.version>
+		<micronaut.version>1.0.4</micronaut.version>
 		<jdk.version>1.8</jdk.version>
 	</properties>
 
