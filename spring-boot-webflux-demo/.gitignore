@@ -14,3 +14,4 @@ target
 ${log-path}
 /transaction-logs/
 /.springBeans
+/startup.log

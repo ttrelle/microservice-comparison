@@ -6,10 +6,11 @@ echo "Doing $N iteration/s ..."
 # start / stop application several times
 if [ -f $LOG ]; then rm $LOG; fi
 for i in `seq 1 $N`; do
-    java -jar target/micronaut-simple-0.1.jar >> $LOG &
+    # java -jar target/micronaut-simple-0.1.jar >> $LOG &
+    java -noverify -jar target/micronaut-simple-0.1.jar >> $LOG &
     PID=$!
     sleep 6
-    kill -9 $PID > /dev/null
+    kill $PID
 done
 
 # calculate mean startup time
